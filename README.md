@@ -11,7 +11,7 @@
 <br/>
 
  ### 🖐🏻 프로젝트 참여자 🖐🏻
-  <div class="22nd-developer">
+  <div class="22nd-developer" align="center">
      <table>
       <tr align="center">
           <td><B>Leader<B></td>
@@ -29,27 +29,27 @@
       </tr>
       <tr align="center">
           <td>
-              <img src="https://github.com/2kkeullim.png?size=100">
+              <img src="https://github.com/2kkeullim.png?size=150">
               <br>
               <a href="https://github.com/2kkeullim"><I>2kkeullim</I></a>
           </td>
           <td>
-              <img src="https://github.com/lolsoyeon.png?size=100" width="100">
+              <img src="https://github.com/lolsoyeon.png?size=150" width="150">
               <br>
               <a href="https://github.com/lolsoyeon"><I>lolsoyeon</I></a>
           </td>
           <td>
-              <img src="https://github.com/hyunkkong.png?size=100" width="100">
+              <img src="https://github.com/hyunkkong.png?size=150" width="150">
               <br>
               <a href="https://github.com/hyunkkong"><I>hyunkkong</I></a>
           </td>
           <td>
-              <img src="https://github.com/buuuk1.png?size=100" width="100">
+              <img src="https://github.com/buuuk1.png?size=150" width="150">
               <br>
               <a href="https://github.com/buuuk1"><I>buuuk1</I></a>
           </td>
           <td>
-              <img src="https://github.com/flown222.png?size=100">
+              <img src="https://github.com/flown222.png?size=150">
               <br>
               <a href="https://github.com/flown222"><I>flown222</I></a>
           </td>
