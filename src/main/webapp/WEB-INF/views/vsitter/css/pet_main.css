@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
+    *
+    {
+        font-family: Pretendard-Regular;
+    }
+    .container 
+    {
+        display: grid;
+        padding-top: 30px; 
+        padding: auto;
+        
+    }
+    .box_pi
+    {
+        border: 1px solid rgba(210, 210, 210, 0.913); 
+        height: 100px;
+        box-shadow: 1px 1px 1px rgb(167, 165, 165); 
+        border-radius: 4px;
+        padding: 13px;
+
+    }
+    .box_mi
+    {
+        background-color: rgba(251, 238, 231, 0.636);
+        border: 1px solid rgba(227, 226, 226, 0.913); 
+    
+        box-shadow: 1px 1px 1px rgb(222, 214, 214); 
+        border-radius: 4px;
+        padding: 13px;
+        width:100%;
+    }
+    .svgImg1
+    {
+        padding-bottom:5px
+    }
+    .svgImg2
+    {
+        padding-bottom:1px
+    }
+
+    .font
+    {
+
+    }
+    .b_font
+    {
+        font-weight: 600;
+    }
+    .s_font
+    {
+        font-size: 9pt;
+        font-weight: 600;
+    }
+    .xs_font
+    {
+        font-size: 8pt;
+        color: black;
+        
+    }
+    
+    a:hover{
+        background-color: blanchedalmond;
+        color: blanchedalmond;
+
+    }
+    td,th {
+        font-size: 8pt;
+        color: black;
+    }
+    .but
+    {
+        height: 30px;
+        text-align: center;
+        box-shadow: 1px 1px 1px rgb(203, 203, 203);
+        margin-left: 5px;
+
+    }
