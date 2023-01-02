@@ -1,4 +1,4 @@
-package com.petpple.kiwi.controller;
+package com.petpple.kiwi.controller.User;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
