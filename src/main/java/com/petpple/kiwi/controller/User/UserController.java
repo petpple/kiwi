@@ -21,4 +21,14 @@ public class UserController {
 	}
 	
 	
+	
+	@RequestMapping("user/userLoginForm")
+	public String userLogin()
+	{
+		return "user/userLoginForm";
+	}
+	
+	
+	
+	
 }
