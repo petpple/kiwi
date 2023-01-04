@@ -18,4 +18,10 @@ public class VsitterController {
 		return "vsitter/vsitterSide";
 	}
 	
+	@RequestMapping("/sidecal")
+	public String vsitterSideCal()
+	{
+		return "vsitter/vsitterCal2";
+	}
+	
 }
