@@ -8,16 +8,16 @@ public class MemberController
 {
 	
 	
-	@RequestMapping("/member/sitterApply")
-	public String sitterApply()
+	@RequestMapping("/member/memberApply")
+	public String memberApply()
 	{
-		return "member/sitterApply";
+		return "member/memberApply";
 	}
 	
-	@RequestMapping("/member/sitterApplyForm")
-	public String sitterApplyForm()
+	@RequestMapping("/member/memberApplyForm")
+	public String memberApplyForm()
 	{
-		return "member/sitterApplyForm";
+		return "member/memberApplyForm";
 	}
 	
 	@RequestMapping("/member/sitterAllowIn")
@@ -38,22 +38,22 @@ public class MemberController
 		return "member/sitterAllowSubmit";
 	}
 	
-	@RequestMapping("/member/sitterFos")
-	public String sitterFos()
+	@RequestMapping("/member/vsitterSign")
+	public String vsitterSign()
 	{
-		return "member/sitterFos";
+		return "member/vsitterSign";
 	}
 	
-	@RequestMapping("/member/sitterFosForm")
-	public String sitterFosForm()
+	@RequestMapping("/member/vsitterApplyForm")
+	public String vsitterApplyForm()
 	{
-		return "member/sitterFosForm";
+		return "member/vsitterApplyForm";
 	}
 	
-	@RequestMapping("/member/fSitterIn")
-	public String fSitterIn()
+	@RequestMapping("/member/fsitterIn")
+	public String fsitterIn()
 	{
-		return "member/fSitterIn";
+		return "member/fsitterIn";
 	}
 	
 	@RequestMapping("/member/memberReview")
@@ -67,5 +67,17 @@ public class MemberController
 	{
 		return "member/memberReviewT";
 	}
+	@RequestMapping("/member/memberHeader")
+	public String memberHeader()
+	{
+		return "member/memberHeader";
+	}
+	@RequestMapping("/member/memberMyInfo")
+	public String memberMyInfo()
+	{
+		return "member/memberMyInfo";
+	}
+
+	
 	
 }
