@@ -19,19 +19,21 @@
 </head>
 <body>
 
+<c:import url="fsitterHeader.jsp"></c:import>
+
 <div class="container" >	
 	<div class="row">
         <div class="col-md-2" id="info">
         	<c:import url="fsitterSide.jsp"></c:import>
 		</div>
         
-		<div class="col-md-10">
+		<div class="col-md-7">
 			<div class="IMG1" >
 				<img src="/images/fsitter/2.svg" class="svgImg2">
 				<span class="font b_font">차단목록</span>
         	</div>
         	
-	        <div class="box_mi">
+	        <div class="box_miBl">
 	            <div class= "serv_on">
 	                <table class="table table-hover" >
 	                    <tr>
