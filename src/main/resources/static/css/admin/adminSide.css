@@ -14,7 +14,7 @@
     /* Colors */
     --first-color: #FE5C17;
     --bg-color: #12192c;
-    --sub-color: #ffe5d9;
+    --sub-color: #ff9263;
     --white-color: #fff;
 
     /* Fuente y tipografia */
@@ -63,6 +63,11 @@ li
 a
 {
     text-decoration: none;
+}
+
+.imgKiwi
+{
+	width: 1px;
 }
 
 /* l NAV */
@@ -128,7 +133,7 @@ a
 
 .nav__link:hover
 {
-    background-color: var(--first-color);
+    background-color: var(--sub-color);
 }
 
 .nav__icon
@@ -156,7 +161,12 @@ a
 /* Active links menu */
 .active
 {
-    /* background-color: var(--first-color); */
+    background-color: var(--first-color);
+}
+
+.active:hover
+{
+    background-color: var(--first-color);
 }
 
 /* COLLAPSE */
@@ -180,7 +190,7 @@ a
 
 .collapse__sublink
 {
-    color: var(--sub-color);
+    color: var(--white-color);
     font-size: var(--small-font-size);
 }
 
