@@ -16,13 +16,14 @@ String cp = request.getContextPath();
 	src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript"
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="/css/vsitter/petMain.css">
+<link rel="stylesheet" href="/css/sitter/sitterDiary.css">
 
 </head>
 <body>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2" id="info">
+				<!--로그인하면 세션으로 방문/위탁 펫시터 구분후 각각 다르게 출력  -->
 				<c:import url="vsitterSide.jsp"></c:import>
 			</div>
 			<div class="col-md-7">
@@ -42,7 +43,7 @@ String cp = request.getContextPath();
 			</div>
 			<div class="col-md-3">
 				<div id="test">
-					<c:import url="vsitterCal.jsp"></c:import>
+					<c:import url="sitterCal.jsp"></c:import>
 				</div>
 			</div>
 		</div>

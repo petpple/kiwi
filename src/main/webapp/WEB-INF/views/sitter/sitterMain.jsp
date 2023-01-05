@@ -16,7 +16,7 @@ String cp = request.getContextPath();
 	src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript"
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="/css/vsitter/petMain.css">
+<link rel="stylesheet" href="/css/sitter/sitterMain.css">
 
 <script type="text/javascript">
 	function CountDownTimer(dt, id) {
@@ -55,7 +55,7 @@ String cp = request.getContextPath();
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2" id="info">
-				<c:import url="vsitterSide.jsp"></c:import>
+				<c:import url="http://localhost:8091/vsitterSide"></c:import>
 			</div>
 			<div class="col-md-7">
 				<div class="IMG1">
@@ -68,7 +68,7 @@ String cp = request.getContextPath();
 					<img src="/images/vsitter/timer-icon.svg" class="svgImg1">
 					<span id="remainTime" class="s_font"></span>
 					<div class="serv_on">
-						<table class="table tab m_font">
+						<table class="table tab s_font">
 							<tr>
 								<th>신청번호</th>
 								<th style="text-align: center;">내용</th>
@@ -180,7 +180,7 @@ String cp = request.getContextPath();
 			</div>
 			<div class="col-md-3">
 				<div id="test">
-					<c:import url="vsitterCal.jsp"></c:import>
+					<c:import url="sitterCal.jsp"></c:import>
 				</div>
 			</div>
 		</div>
