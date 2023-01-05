@@ -41,4 +41,10 @@ public class FsitterController {
 	{
 		return "fsitter/fsitterMyDrawl";
 	}
+	
+	@RequestMapping("/fsitterMyInfo")
+	public String fsitterMyInfo()
+	{
+		return "fsitter/fsitterMyInfo";
+	}
 }

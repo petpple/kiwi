@@ -22,19 +22,20 @@
 		</div>
 		
 		<div id="top_menu">
-			<a href="#">쪽지</a>
-			<a href="#">하트</a>
-			<a href="#">알림</a>
-			<a href="#">~님</a>
-			<a href="#">로그인</a>
+				<a href="#">쪽지</a>
+				<a href="#">하트</a>
+				<a href="#">알림</a>
+				<a href="#">~님</a>
+				<a href="#">로그인</a>
 		</div>
+		
 		<nav>
 			<ul>
-				<li><a href="#">긴급 요청 서비스</a></li>
+				<li><a href="">긴급 요청 서비스</a></li>
 				<li><a href="#">방문 서비스</a></li>
 				<li><a href="#">위탁 서비스</a></li>
 				<li><a href="#">FAQ</a></li>
-				<li><a href="#">마이페이지</a></li>
+				<li><a href="http://localhost:8091/fsitterMyInfo">마이페이지</a></li>
 			</ul>
 		</nav>
 	</header>

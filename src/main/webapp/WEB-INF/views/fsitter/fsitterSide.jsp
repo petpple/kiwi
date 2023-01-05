@@ -18,11 +18,11 @@
         </div>
         <div class ="box_mypi">
         	
-            <a href=""><span class="font xs_font">내정보 변경</span></a><br><br>
-            <a href=""><span class="font xs_font">계좌 변경</span></a><br><br>
-        	<a href=""><span class="font xs_font">차단 목록</span></a><br><br>
-        	<a href=""><span class="font xs_font">탈퇴하기</span></a><br><br>
-        	<a href=""><span class="font xs_font">내 프로필 변경</span></a><br>
+            <a href="http://localhost:8091/fsitterMyInfo"><span class="font xs_font">내정보 변경</span></a><br><br>
+            <a href="http://localhost:8091/fsitterMyBank"><span class="font xs_font">계좌 변경</span></a><br><br>
+        	<a href="http://localhost:8091/fsitterMyBlock"><span class="font xs_font">차단 목록</span></a><br><br>
+        	<a href="http://localhost:8091/fsitterMyDrawl"><span class="font xs_font">탈퇴하기</span></a><br><br>
+        	<a href="http://localhost:8091/fsitterMyProfile"><span class="font xs_font">내 프로필 변경</span></a><br>
         </div>
 
 </body>

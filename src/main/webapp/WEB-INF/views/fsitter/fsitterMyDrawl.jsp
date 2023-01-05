@@ -18,6 +18,8 @@
 
 </head>
 <body>
+
+<c:import url="fsitterHeader.jsp"></c:import>
 <div class="container" >
 	<div class="row">
         <div class="col-md-2" id="info">
@@ -25,13 +27,13 @@
 		</div>
         
 		
-			<div class="col-md-10">
+			<div class="col-md-7">
 				<div class="IMG1" >
 					<img src="/images/fsitter/2.svg" class="svgImg2">
 					<span class="font b_font">탈퇴하기</span>
 	        	</div>
 	        	
-		        <div class="box_mi">
+		        <div class="box_miDr">
 		            
 		                <div class="box_mi_top">
 		               	 1. 탈퇴시 개인 정보 및 kiwi에서 만들어진 모든 데이터는 삭제됩니다.<br>

@@ -37,7 +37,9 @@
 
 </head>
 <body onload="initialize()">
+
 <c:import url="fsitterHeader.jsp"></c:import>
+
 <div class="container" >
 	<div class="row">
         <div class="col-md-2" id="info">
@@ -47,52 +49,43 @@
 		<!-- <img src="/images/fsitter/h1.svg" class="svgImg3">
 		<img src="/images/fsitter/h2.svg" class="svgImg4">
 		<img src="/images/fsitter/h3.svg" class="svgImg4"> -->
+		
 		<div class="col-md-7">
-			<div class="box_mi">
+			<div class="box_miMyPr1">
 			
-				<form class="form-inline">
+				<div class="form-inline">
 				<img src="/images/fsitter/h4.svg" class="svgImg5">
-					 <div class="form-group">
+					 <div class="form-group" id="MyPro1">
 					   	<input type="text" class="form-control" id="loc2" placeholder="서울시 마포구 합정동">
-						<label class="control-label" for="loc">펫시터</label>
-					 </div>
-					 <div class="form-group">
-					   	<input type="text" class="form-control" id="sitter_name2" placeholder="다나카">
-					 	<label for="sitter_name">님</label>
-					 </div>
-					 <div class="form-group">		   
-					   	<input type="text" class="form-control input-lg" id="sitter_title3" placeholder="내 아이를 돌보듯 따뜻하고 편안하게">
-					 </div>
-				</form>
-				
-				<!-- <form class="form-inline">
+						<label class="control-label" for="loc">펫시터&emsp;</label>
 					 
-				</form> -->
-			</div>
-
-			<div class="box_mi">
+					   	<input type="text" class="form-control" id="sitterName2" placeholder="다나카">
+					 	<label for="sitter_name">님</label>
+					 	<br>
+					 	<input type="text" class="form-control input-lg" id="loc3" placeholder="내 아이를 돌보듯 따뜻하고 편안하게">
+					 </div>
+					 
+				</div><!--end <form class="form-inline">-->
+			</div><!--end <div class="box_mi">-->
+		
+			
+			
+			<div class="box_miMyPr2">
 				<div class="form-inline">
 					 <div class="form-group">
-					   	<input type="text" class="form-control" id="sitter_name2" placeholder="다나카">
+					   	<input type="text" class="form-control" id="sitterName2" placeholder="다나카">
 					 	<label for="sitter_name">펫시터님을 소개합니다</label>
 					 </div>
 					  
 				</div>
 				<br>
-				<div class="title_int_content">
-					<textarea class="form-control" rows="9" placeholder="
-					안녕하세요. 반려동물을 무한히 사랑하는 펫시터 다나카입니다. 지금은 곁에 없지만 17년동안 
-					막내아들처럼 함께했던 반려견을 보내고 그리움과 허전함으로 힘들게 지내다가, 마침내 용기를 내어서 
-					주변에 혼자있게 되는 반려견을 견주님들이 내 집처럼 맡길수 있는 펫시터로서의 일을 시작하게 되었습니다. 
-					반려견들이 더 존중받는 뉴질랜드에서부터 반려견을 키우고, 지인들의 반려견들을 맡아주던 경험도 많습니다.
-					 집 근처에 있는 여러 공원과 반포천은 반려견들이 산책하기에 좋은 환경입니다. 내 아이를 돌보듯 따뜻하고 
-					 편안하게, 사랑과 정성으로 최선을 다해 보살펴드리겠습니다.">
-					 </textarea>
-					</span>
+				<div>
+					<textarea class="form-control" rows="9" placeholder="안녕하세요. 반려동물을 무한히 사랑하는 펫시터 양*애입니다. 지금은 곁에 없지만 17년동안 막내아들처럼 함께했던 반려견을 보내고 그리움과 허전함으로 힘들게 지내다가, 마침내 용기를 내어서 주변에 혼자있게 되는 반려견을 견주님들이 내 집처럼 맡길수 있는 펫시터로서의 일을 시작하게 되었습니다. 반려견들이 더 존중받는 뉴질랜드에서부터 반려견을 키우고, 지인들의 반려견들을 맡아주던 경험도 많습니다. 집 근처에 있는 여러 공원과 반포천은 반려견들이 산책하기에 좋은 환경입니다. 내 아이를 돌보듯 따뜻하고 편안하게, 사랑과 정성으로 최선을 다해 보살펴드리겠습니다."></textarea>
 				</div>
 			</div>
-			
-			<div class="box_mi">
+
+
+			<div class="box_miMyPr3">
 				<span>자격증 및 교육 수료</span><br>
 				<select class="form-control" multiple>
 					  <option value="0" selected>-- 자격증 선택 --</option>
@@ -193,7 +186,7 @@
 			
 		
 		
-		
+	
 	</div>
 </div>
 </body>
