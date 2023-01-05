@@ -12,100 +12,113 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="/css/user/userMain.css">
-<style type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+<link rel="stylesheet" href="/css/user/userLoginForm.css">
+<link rel="stylesheet" href="/css/user/uMain.css">
+<link rel="stylesheet" href="/css/main.css">
 
-</style>
 
 <script type="text/javascript">
-	$(function() {
-	
-	    $('#user-login-form-link').click(function(e) {
-			$("#login-form").delay(100).fadeIn(100);
-	 		$("#petsetter-form").fadeOut(100);
-			$('#petsetter-form-link').removeClass('active');
-			$(this).addClass('active');
-			e.preventDefault();
-		});
-		$('#petsetter-form-link').click(function(e) {
-			$("#petsetter-form").delay(100).fadeIn(100);
-	 		$("#login-form").fadeOut(100);
-			$('#login-form-link').removeClass('active');
-			$(this).addClass('active');
-			e.preventDefault();
-		});
-	
-	});
+	$(document).ready(function()
+	{
+		$("#submitBtn").click(function()
+		{
+			if($("#userId").val()=="")
+			{
+				$("#err1").html("아이디를 입력해 주세요.").css("display","inline");
+				return;
+			}
+			else if ($("#userPw").val()=="")
+			{
+				$("#err1").html("비밀번호를 입력해 주세요.").css("display","inline");
+				return;
+			}
+			$("#userForm").submit();
+		})
+		
+		$("#pSubmitBtn").click(function()
+		{
+			if($("#petsitterId").val()=="")
+			{
+				$("#err2").html("아이디를 입력해 주세요.").css("display","inline");
+				return;
+			}
+			else if ($("#petsitterPw").val()=="")
+			{
+				$("#err2").html("비밀번호를 입력해 주세요.").css("display","inline");
+				return;
+			}
+			$("#petsitterForm").submit();
+		})
+	})
 </script>
-<style type="text/css">
-	input {
-		width: 80%; 
-		margin: auto;
-		height: 40px;
-	}
-	div {
-		margin: 5px;
-	}
-	.login_tab {
-		width: 100
-	}
-	#signUpBtn {
-		border: 1px solid #CCCCCC;
-		background-color: white;
-		color: #B8B8B8;
-	}
 
-</style>
 </head>
 <body>
 	<div class="container">
-		<div class="row">
-			<ul class="nav nav-pills login_tab">
-				<li>
-					<a href="#">일반회원</a>
-				</li> 
-				<li>
-					<a href="#">펫시터</a>
-				</li>
-			</ul>
-		</div>
-		
-		<div class="row">
-			<!-- 일반회원 폼 -->
-			<div class="col-md-12">
-				<div class="login_title">
-					<h1>로그인</h1>
+		<div>
+			<div class="tab_content">
+				<input type="radio" name="tabmenu" id="tab01" checked>
+				<label class="h2_font" for="tab01">일반회원</label>
+			
+				<input type="radio" name="tabmenu" id="tab02">
+				<label class="h2_font " for="tab02">펫시터</label>
+				<div class="conbox con1">
+					<div class="login">
+						<h1 class="h_font loginTitle">로그인</h1>
+					</div>
+					<form action="#" method="post" id="userForm">
+						<div>
+							<h3 class="mb_font id">아이디</h3>
+							<input type="text" name="userId" id="userId" placeholder="아이디">
+						</div>
+						<div>
+							<h3 class="mb_font pw">비밀번호</h3>
+							<input type="password" name="userPw" id="userPw" placeholder="******">
+						</div>
+						<div class="err">
+							<span class="s_font" id="err1"></span>
+						</div>
+						<div>
+							<input type="button" value="로그인" id="submitBtn" class="btn submitBtn m_font">
+						</div>
+						<div>
+							<input type="button" value="회원가입" id="signUpBtn" class="btn signUpBtn m_font" onclick="#">
+							<!-- 회원 가입 폼으로 -->
+						</div>
+						<div class="forget">
+							<a href="#">아이디 / 비밀번호를 잊어버리셨나요?</a>
+						</div>
+					</form>
 				</div>
-				<form action="" method="post" role="userLogin">
+			<!-- 펫시터 로그인 -->			
+			<div class="conbox con2">
+				<div class="login">
+					<h1 class="h_font loginTitle">로그인</h1>
+				</div>
+				<form action="#" method="post" id="petsitterForm">
 					<div>
-						<p>아이디</p>
-						<input type="text" name="memberId" id="userId" tabindex="1" placeholder="아이디">
+						<h3 class="mb_font id">아이디</h3>
+						<input type="text" name="petsitterId" id="petsitterId" placeholder="아이디">
 					</div>
 					<div>
-						<p>비밀번호</p>
-						<input type="password" name="memberPw" id="memberPw" tabindex="2" placeholder="비밀번호">
+						<h3 class="mb_font pw">비밀번호</h3>
+						<input type="password" name="petsitterPw" id="petsitterPw" placeholder="******">
 					</div>
 					<div class="err">
-						<span id="err" style="color: red; font-size: small; display: none"></span>
+						<span class="s_font" id="err2"></span>
 					</div>
 					<div>
-						<input type="button" value="로그인" id="submitBtn" style="width: 80%; margin: auto;" class="btn" >
+						<input type="button" value="로그인" id="pSubmitBtn" class="btn pSubmitBtn m_font">
 					</div>
-					<div>
-						<input type="button" value="회원가입" id="signUpBtn" style="width: 80%; margin: auto;" class="btn">
-					</div>
-					<div class="col-md-12">
-						<a href="#">아이디/비밀번호를 잊어버리셨나요?</a>
+					<div class="forget">
+						<a href="#">아이디 / 비밀번호를 잊어버리셨나요?</a>
 					</div>
 				</form>
 			</div>
 		</div>
+	</div>
+</div>
 	
-			
-		
-	</div><!-- end .container -->
-	
-	
-
 </body>
 </html>
