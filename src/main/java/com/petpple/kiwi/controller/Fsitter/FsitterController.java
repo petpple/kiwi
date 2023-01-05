@@ -12,17 +12,6 @@ public class FsitterController {
 		return "fsitter/fsitterMyProfile";
 	}
 	
-	@RequestMapping("/fsitterMyBank")
-	public String fsitterMyBank()
-	{
-		return "fsitter/fsitterMyBank";
-	}
-	
-	@RequestMapping("/fsitterSide")
-	public String fsitterSide()
-	{
-		return "fsitter/fsitterSide";
-	}
 	
 	@RequestMapping("/fsitterHeader")
 	public String fsitterHeader()
@@ -36,11 +25,6 @@ public class FsitterController {
 		return "fsitter/fsitterMyBlock";
 	}
 	
-	@RequestMapping("/fsitterMyDrawl")
-	public String fsitterMyDrawl()
-	{
-		return "fsitter/fsitterMyDrawl";
-	}
 	
 	@RequestMapping("/fsitterMyInfo")
 	public String fsitterMyInfo()
