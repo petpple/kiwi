@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>sitter_myBank</title>
+<title>fsitterMyBank</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
@@ -25,13 +25,12 @@
 </head>
 <body>
 	
+<c:import url="fsitterHeader.jsp"></c:import>
 <div class="container" >
 	<div class="row">
         <div class="col-md-2" id="info">
         	<c:import url="fsitterSide.jsp"></c:import>
 		</div>
-		
-		
 		
 		<div class="col-md-7">
 			<div class="IMG1" >
@@ -39,51 +38,32 @@
 				<span class="font b_font">계좌 변경</span>
         	</div>
         	
-	        <div class="box_mi">
+	        <div class="box_mibank">
 	            <div class= "bank_change">
-	                <table class="table" >
-	                    <tr>
-	                        <th>계좌 변경</th>
-	                    </tr>
-	                 	<tr>
-	                        <th> </th>
-	                    </tr>
-	                </table>
+	                
 	                <form class="form-inline">
-	               
 	                <div class="form-group">
-	              
-	    				<label for="change_account">예금주 : </label>
-	    				
-	    				<input type="text" class="form-control" id="change_account" placeholder="예금주를 입력하세요" >
-	  					
+	    				<label for="changeAccount">예금주 : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	    				<input type="text" class="form-control" id="changeAccount" placeholder="예금주를 입력하세요" >
 	  				</div><br><br>
-	  				<div class="form-group">
-	              
-	    				<label for="change_account">은행 : </label>
-	    				
-	    				<input type="text" class="form-control" id="change_account" placeholder="은행을 입력하세요" >
-	  					
-	  				</div><br><br>
-	  				<div class="form-group">
-	              
-	    				<label for="change_account">계좌번호 : </label>
-	    				
-	    				<input type="text" class="form-control" id="change_account" placeholder="계좌번호를 입력하세요" >
-	  					
-	  				</div><br><br><br>
 	  				
+	  				<div class="form-group">
+	    				<label for="changeAccount">은행 : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+	    				<input type="text" class="form-control" id="changeAccount" placeholder="은행을 입력하세요" >
+	  				</div><br><br>
+	  				
+	  				<div class="form-group">
+	    				<label for="changeAccount">계좌번호 : &nbsp; </label>
+	    				<input type="text" class="form-control" id="changeAccount" placeholder="계좌번호를 입력하세요" >
+	  				</div><br><br><br>
 	  				</form>
-	  				<table class="table" >
-	  					<tr>
-	                        <th>  </th>
-	                    </tr>
-	  				</table>
+	  				
 	                <div>
 	                	<div class="col text-center">
 	                    <button type="button" class="but btn" style="background-color: #FE5C17; color: white;">변경하기</button>
 	                	</div>  
 					</div>
+					
 					</div>
 				</div>
 			</div>
