@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="/css/fsitter/fsitterMy.css">
+<link rel="stylesheet" href="/css/fsitter/fsitterMyInfo.css">
 <link rel="stylesheet" href="/css/main.css">
 
 
@@ -35,13 +35,17 @@
 		<div class="col-md-7">
 			<div class="IMG1" >
 				<img src="/images/fsitter/2.svg" class="svgImg2">
-				<span class="font b_font">내정보 변경</span>
+				<span class="font h_font">내정보 변경</span>
         	</div>
         	
         	<div class="box_miInfo">
 	            <div class= "infoChange">
         			<div class="form-inline">
-						<div class="form-group">
+						<div class="form-group ">
+							<label for="nickname">닉네임</label><br>
+						   	<input type="text" class="form-control" id="nickname" placeholder="닉네임">
+						 	<br><br>
+							
 						 	<label for="phone">연락처</label><br>
 						   	<input type="text" class="form-control" id="phone" placeholder="01011112222">
 						 	<br><br>
@@ -53,12 +57,42 @@
 						 	<!-- 여기부터는 위탁펫시터용 -->
 						 	<label for="home">거주지 주소</label><br>
 						   	<input type="text" class="form-control" id="home" placeholder="예) 서울시 강남구 논현동">
-						 
 						 	<br><br>
+						 	
 						 	<label for="homeDetail">거주지 상세주소</label><br>
 						   	<input type="text" class="form-control" id="homeDetail" placeholder="예) 101동 101호">
-						 	
 						 	<br><br>
+						 	
+						 	<label for="homeTaba">나의 흡연 여부</label><br>
+						 	<div class="radio">
+								<label>
+								    <input type="radio" name="homeTaba" id="homeTaba2" value="1">
+								    네, 흡연자입니다.&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+								 </label>
+							</div>
+							<div class="radio">
+								<label>
+								    <input type="radio" name="homeTaba" id="homeTaba2" value="2">
+								    아니요, 흡연자가 아닙니다.
+								 </label>
+							</div>
+							<br><br>
+							
+							<label for="homeTaba">가족구성원 흡연 여부</label><br>
+						 	<div class="radio">
+								<label>
+								    <input type="radio" name="homeTaba" id="homeTaba2" value="1">
+								    네, 흡연자가 있어요.&emsp;&emsp;&emsp;&emsp;
+								 </label>
+							</div>
+							<div class="radio">
+								<label>
+								    <input type="radio" name="homeTaba" id="homeTaba2" value="2">
+								    아니요, 흡연자는 없습니다.
+								 </label>
+							</div>
+							<br><br>
+							
 						 	<label for="homeCate">거주지 유형</label>
 						 	<br>
 						 	<div class="radio">
@@ -88,22 +122,59 @@
 							<div class="radio">
 								<label>
 								    <input type="radio" name="homeCate" id="homeCate2" value="5">
-								    원룸
-								 </label>
-							</div>
-						 	<br><br>
-						 	
-						 	<label for="homeTaba">본인을 포함한 가족구성원 흡연 여부</label><br>
-						 	<div class="radio">
-								<label>
-								    <input type="radio" name="homeTaba" id="homeTaba2" value="1">
-								    네, 흡연자가 있어요.&emsp;&emsp;&emsp;&emsp;
+								    원룸&emsp;&emsp;
 								 </label>
 							</div>
 							<div class="radio">
 								<label>
-								    <input type="radio" name="homeTaba" id="homeTaba2" value="2">
-								    아니요, 흡연자는 없습니다.
+								    <input type="radio" name="homeCate" id="homeCate2" value="6">
+								    공동주택
+								 </label>
+							</div>
+						 	<br><br>
+							
+							<label for="homeCate">거주지 규모</label>
+						 	<br>
+						 	<div class="radio">
+								<label>
+								    <input type="radio" name="homeCate" id="homeCate2" value="1">
+								    1~10평&emsp;&ensp;
+								 </label>
+							</div>
+						 	<div class="radio">
+								<label>
+								    <input type="radio" name="homeCate" id="homeCate2" value="2">
+								    10~20평&emsp;&ensp;
+								 </label>
+							</div>
+							<div class="radio">
+								<label>
+								    <input type="radio" name="homeCate" id="homeCate2" value="3">
+								    21~30평&emsp;&ensp;
+								 </label>
+							</div>
+						 	<div class="radio">
+								<label>
+								    <input type="radio" name="homeCate" id="homeCate2" value="4">
+								    31~40평&emsp;&ensp;
+								 </label>
+							</div>
+							<div class="radio">
+								<label>
+								    <input type="radio" name="homeCate" id="homeCate2" value="5">
+								    41~50평&emsp;&ensp;
+								 </label>
+							</div>
+							<div class="radio">
+								<label>
+								    <input type="radio" name="homeCate" id="homeCate2" value="5">
+								    51~60평&emsp;&ensp;
+								 </label>
+							</div>
+							<div class="radio">
+								<label>
+								    <input type="radio" name="homeCate" id="homeCate2" value="5">
+								    61평 이상
 								 </label>
 							</div>
 							<br><br><br>
