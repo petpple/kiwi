@@ -15,14 +15,14 @@ header{
 #top_menu{
 	position: absolute;
 	top: 10px;
-	right: 10px;
+	right: 20px;
 }
 
 nav{
 	position: absolute;
 	bottom: 10px;
-	left: 220px;
-	font-size: 16px;
+	left: 25%;
+	font-size: 20px;
 } 
 
 nav li{
@@ -43,7 +43,8 @@ nav li{
 {
 	display: grid;
     padding-top: 30px; 
-    padding: auto;      
+     
+    width: 1300px;   
 }
 .box_pi
 {
@@ -91,6 +92,56 @@ nav li{
      
     
  }
+.box_mibank
+{
+     background-color: rgba(251, 238, 231, 0.636);
+     border: 1px solid rgba(227, 226, 226, 0.913); 
+  	
+     box-shadow: 1px 1px 1px rgb(222, 214, 214); 
+     border-radius: 4px;
+     padding: 30px;
+     width:100%;
+     margin-left: 30px;
+     margin-top: 5px;
+}
+.box_miInfo
+{
+     background-color: rgba(251, 238, 231, 0.636);
+     border: 1px solid rgba(227, 226, 226, 0.913); 
+  	
+     box-shadow: 1px 1px 1px rgb(222, 214, 214); 
+     border-radius: 4px;
+     padding: 30px;
+     width:100%;
+     margin-left: 30px;
+     margin-top: 3px;
+}
+.box_miDr
+{
+     background-color: rgba(251, 238, 231, 0.636);
+     border: 1px solid rgba(227, 226, 226, 0.913); 
+  	
+     box-shadow: 1px 1px 1px rgb(222, 214, 214); 
+     border-radius: 4px;
+     padding: 30px;
+     width:100%;
+     margin-left: 30px;
+     margin-top: 5px;
+}
+
+.box_miBl
+{
+     background-color: rgba(251, 238, 231, 0.636);
+     border: 1px solid rgba(227, 226, 226, 0.913); 
+  	
+     box-shadow: 1px 1px 1px rgb(222, 214, 214); 
+     border-radius: 4px;
+     padding: 30px;
+     width:100%;
+     margin-left: 30px;
+     margin-top: 5px;
+}
+
 .box_mypi2
 {
      border: 1px solid rgba(210, 210, 210, 0.913); 
@@ -103,6 +154,46 @@ nav li{
 	 margin-left: 15px;
 	 
 }
+
+.box_miMyPr1
+{
+     background-color: rgba(251, 238, 231, 0.636);
+     border: 1px solid rgba(227, 226, 226, 0.913); 
+  	
+     box-shadow: 1px 1px 1px rgb(222, 214, 214); 
+     border-radius: 4px;
+     padding: 30px;
+     width:100%;
+     margin-left: 30px;
+     margin-top: 35px;
+     
+}
+.box_miMyPr2
+{
+     background-color: rgba(251, 238, 231, 0.636);
+     border: 1px solid rgba(227, 226, 226, 0.913); 
+  	
+     box-shadow: 1px 1px 1px rgb(222, 214, 214); 
+     border-radius: 4px;
+     padding: 30px;
+     width:100%;
+     margin-left: 30px;
+     margin-top: 35px;
+}
+
+.box_miMyPr3
+{
+     background-color: rgba(251, 238, 231, 0.636);
+     border: 1px solid rgba(227, 226, 226, 0.913); 
+  	
+     box-shadow: 1px 1px 1px rgb(222, 214, 214); 
+     border-radius: 4px;
+     padding: 30px;
+     width:100%;
+     margin-left: 30px;
+     margin-top: 35px;
+}
+
 td,th 
 {
      font-size: 22pt;
@@ -135,12 +226,11 @@ form-inline
 }
 .svgImg5
 {
-	viewBox="0 0 70 70 "
+	
   	 height: 120px;
   	 width: 120px;
-  	 margin-left: 15px;
-  	 margin-top: 25px;
-  	 
+  	 float: left;
+  	 margin-top: -10px;
 }
 bank_change
 {
@@ -154,7 +244,7 @@ bank_change
 	
     box-shadow: 1px 1px 1px rgb(222, 214, 214); 
     border-radius: 4px;
-    padding: 60px;
+    padding: 30px;
     width: 100%;
     margin-bottom: 30px;
     font-size: 13pt;
@@ -208,15 +298,60 @@ bank_change
 {	
 	margin-left:20px;
 	width: 180px;
+	
+}
+#loc3
+{	
+	margin-top: 20px;
+	margin-left:20px;
+	width: 350px
 }
 
-#sitter_name2
+#sitterName2
 {
-	
 	width: 70px;
 }
-#sitter_title3
+#sitterTitle
 {
 	margin-left:155px;
 	width: 350px;
+}
+
+[type="radio"] {
+  vertical-align: middle;
+  appearance: none;
+  border: max(2px, 0.1em) solid gray;
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  transition: border ease-in-out;
+}
+
+[type="radio"]:checked {
+  border: 0.3em solid tomato;
+}
+
+[type="radio"]:focus-visible {
+  outline-offset: max(2px, 0.1em);
+  outline: max(2px, 0.1em) dotted tomato;
+}
+
+[type="radio"]:hover {
+  box-shadow: 0 0 0 max(4px, 0.2em) lightgray;
+  cursor: pointer;
+}
+
+[type="radio"]:disabled + span {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.font b_font
+{
+	font-size:17px;	
+}
+
+.MyPro1
+{
+	float: right;
 }
