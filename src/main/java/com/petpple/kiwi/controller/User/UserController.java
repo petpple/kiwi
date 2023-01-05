@@ -13,20 +13,32 @@ public class UserController {
 		mav.setViewName("user/userMain");
 		return mav;
 	}
-	
+	/*
 	@RequestMapping("/userMain")
 	public String userMain()
 	{
 		return "user/userMain";
 	}
+	*/
 	
-	
+	@RequestMapping("user/userMain")
+	public String userMain()
+	{
+		return "user/userMain";
+	}
 	
 	@RequestMapping("user/userLoginForm")
 	public String userLogin()
 	{
 		return "user/userLoginForm";
 	}
+	
+	@RequestMapping("user/userContract")
+	public String userContract()
+	{
+		return "user/userContract";
+	}
+	
 	
 	
 	
