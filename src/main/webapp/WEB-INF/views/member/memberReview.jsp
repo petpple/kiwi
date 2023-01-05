@@ -107,26 +107,27 @@
 
 
 <body>
+	<c:import url="memberHeader.jsp"></c:import>
  
-	<button type='button' id="modal_btn">서비스 확정</button>
-	<div class="black_bg"></div>
-	<div class="modal_wrap">
-	    <div class="modal_close"><a href="#">close</a></div>
-	    <div>
-	        <h2>펫시터 후기 쓰기</h2>
+		<button type='button' id="modal_btn">서비스 확정</button>
+		<div class="black_bg"></div>
+		<div class="modal_wrap">
+		    <div class="modal_close"><a href="#">close</a></div>
+		    <div>
+		        <h2>펫시터 후기 쓰기</h2>
+			
+					<div class="imageBox">
+						<img class="imageThumbnail">
+					
+					<img src="/images/member/o.svg" class="svgImg1">
+				<input type="file" name="reviewPic" id="reviewPic" />
+		        
+		        
+					</div>
+		    </div>
 		
-				<div class="imageBox">
-					<img class="imageThumbnail">
-				
-				<img src="/images/member/o.svg" class="svgImg1">
-			<input type="file" name="reviewPic" id="reviewPic" />
-	        
-	        
-				</div>
-	    </div>
-	
-	</div><!-- modal_wrap -->
-	
-</body>
+		</div><!-- modal_wrap -->
+		
+	</body>
 
 </html>
