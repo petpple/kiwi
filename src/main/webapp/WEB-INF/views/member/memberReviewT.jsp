@@ -18,22 +18,20 @@
 
 </head>
 <body>
-
-	<div class="btn">클릭하면 팝업창이 실행됩니다.</div>
+	<c:import url="memberHeader.jsp"></c:import>
 	
-	<div class="mlp">
-		<div class="popup">
-			<div class="heading"><h3>후기 작성하기</h3></div>
-	        <div class="contents">
-				<img width="200" height="100" style="background:black" alt="" />
-				<p>모달 레이어 팝업 창의 본문을 적습니다.</p>
-			</div>        
-	        <div class="close">close</div>
-	    </div>
-	</div>
-
-
-
+		<div class="btn">클릭하면 팝업창이 실행됩니다.</div>
+		
+		<div class="mlp">
+			<div class="popup">
+				<div class="heading"><h3>후기 작성하기</h3></div>
+		        <div class="contents">
+					<img width="200" height="100" style="background:black" alt="" />
+					<p>모달 레이어 팝업 창의 본문을 적습니다.</p>
+				</div>        
+		        <div class="close">close</div>
+		    </div>
+		</div>
 
 
 </body>
