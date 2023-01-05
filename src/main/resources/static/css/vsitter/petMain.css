@@ -14,7 +14,8 @@
 .container {
 	display: grid;
 	padding-top: 30px;
-	padding: auto;
+	padding:auto;
+	width:1300px;
 }
 
 .box_pi {
@@ -24,7 +25,6 @@
 	border-radius: 4px;
 	padding: 13px;
 }
-
 
 .box_pi_money {
 	border: 1px solid rgba(210, 210, 210, 0.913);
@@ -40,7 +40,31 @@
 	border-radius: 4px;
 	padding: 13px;
 	width: 100%;
+	margin-bottom: 20px;
 }
+
+.box_diary {
+	background-color: white;
+	border: 1px solid rgba(227, 226, 226, 0.913);
+	box-shadow: 1px 1px 1px rgb(222, 214, 214);
+	border-radius: 4px;
+	padding: 10px;
+	height:500px;
+
+}
+
+
+.box_diary_flex {
+	background-color: white;
+	border: 1px solid rgba(227, 226, 226, 0.913);
+	box-shadow: 1px 1px 1px rgb(222, 214, 214);
+	border-radius: 4px;
+	padding: 12px;
+	display:flex;
+	
+}
+
+
 
 .box_cal {
 	border: 1px solid rgba(210, 210, 210, 0.913);
@@ -60,20 +84,35 @@
 
 .cal_md_font {
 	font_size: 12pt;
+	
 }
 
-.b_font {
+.h_font {
+	font-size:22px;
+	font-weight: 600;
+	
+}
+.h2_font {
+	font-size:20px;
 	font-weight: 600;
 }
-
-.s_font {
-	font-size: 9pt;
+.l_font{
+	font-size:17px;
+}
+.mb_font{
+	font-size:15px;
 	font-weight: 600;
 }
+.m_font{
+	font-size:15px;
+	
+}
+.s_font {	
+	font-size:13px;
+}
 
-.xs_font {
-	font-size: 8pt;
-	color: black;
+.font_black{
+	color:black;
 }
 
 .side_aTag:hover {
@@ -86,10 +125,10 @@
 	margin-top: 10px;
 }
 
-td, th {
-	font-size: 8pt;
+/* td, th {
+	font-size: 13px;
 	color: black;
-}
+} */
 
 .current:hover {
 	background-color: blanchedalmond;
@@ -118,7 +157,6 @@ td, th {
 	height: 90px;
 	border-radius: 10px;
 	padding-left: 20px;
-	
 }
 
 .but {
@@ -128,25 +166,43 @@ td, th {
 	margin-left: 5px;
 }
 
-.reserveInfo
-{
+.reserveInfo {
 	line-height: 60px;
 }
 
-.tab th
-{
-	text-align:center;
-}
-
-.reservInfoTd
-{
-	padding: auto;
+/* .tab th td{
+	font-size:17px;
+	color:black;
+} */
+.tab th {
 	text-align: center;
 }
 
+
+.reservInfoTd {
+	padding: auto;
+	text-align: center;
+}
 
 .cal_detail_div {
 	padding: 10px;
 	float: left;
 	text-align: center;
+}
+
+
+.diary_inactive {
+	color: black;
+}
+
+.diary_table td{
+	width:250px;
+	padding-left:100px;
+}
+
+.div_horizon{
+	padding-top:10px;
+	flex:1;
+	margin-left:3px;
+	text-align:center;
 }

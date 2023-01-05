@@ -6,22 +6,40 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class VsitterController {
 
-	@RequestMapping("/sitter")
+	@RequestMapping("/vsitterMain")
 	public String vsitterMain()
 	{
 		return "vsitter/vsitterMain";
 	}
 	
-	@RequestMapping("/side")
+	@RequestMapping("/vsitterSide")
 	public String vsitterSide()
 	{
 		return "vsitter/vsitterSide";
 	}
 	
-	@RequestMapping("/sidecal")
+	@RequestMapping("/vsitterSideCal")
 	public String vsitterSideCal()
 	{
-		return "vsitter/vsitterCal2";
+		return "vsitter/vsitterCal";
+	}
+	
+	@RequestMapping("/vsitterDiaryForm")
+	public String vsitterDiaryForm()
+	{
+		return "vsitter/vsitterDiaryForm";
+	}
+	
+	@RequestMapping("/vsitterDiaryWritten")
+	public String vsitterDiary()
+	{
+		return "vsitter/vsitterDiaryWritten";
+	}
+	
+	@RequestMapping("/vsitterDiaryPetChoice")
+	public String vsitterDiaryPetChoice()
+	{
+		return "vsitter/vsitterDiaryPetChoice";
 	}
 	
 }

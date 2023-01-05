@@ -60,15 +60,15 @@ String cp = request.getContextPath();
 			<div class="col-md-7">
 				<div class="IMG1">
 					<img src="/images/vsitter/sitting_on.svg" class="svgImg1"> <span
-						class="font b_font">진행 중인 펫시팅</span>
+						class="font h_font">진행 중인 펫시팅</span>
 				</div>
 				<div class="box_mi">
-					<span class="label label-default xs_font"
+					<span class="label label-default s_font font_black"
 						style="background-color: rgb(225, 199, 199);">긴급-방문서비스</span>
 					<img src="/images/vsitter/timer-icon.svg" class="svgImg1">
 					<span id="remainTime" class="s_font"></span>
 					<div class="serv_on">
-						<table class="table tab">
+						<table class="table tab m_font">
 							<tr>
 								<th>신청번호</th>
 								<th style="text-align: center;">내용</th>
@@ -86,10 +86,10 @@ String cp = request.getContextPath();
 								</td>
 								<td><div class="reservInfoTd">
 										<img src="/images/vsitter/profile.png" style="width: 60px;"><br>
-										<span class="s_font">루카스</span>
+										<span class="mb_font">루카스</span>
 									</div>
 								</td>
-								<td><span class="reserveInfo">35000원</span></td>
+								<td><span class="reserveInfo">350030원</span></td>
 							</tr>
 						</table>
 
@@ -100,15 +100,15 @@ String cp = request.getContextPath();
 						</div>
 					</div>
 				</div>
-				<br> <br>
+				<br>
 				<div class="IMG1">
-					<img src="/images/vsitter/4.svg" class="svgImg1"> <span
-						class="font b_font">진행 예정인 펫시팅</span>
+					<img src="/images/vsitter/sitting_on.svg" class="svgImg1"> <span
+						class="font h_font">진행 예정인 펫시팅</span>
 				</div>
 				<div class="box_mi">
 
 					<div class="serv_on">
-						<table class="table tab">
+						<table class="table tab m_font">
 							<tr>
 								<th>신청번호</th>
 								<th style="text-align: center">내용</th>
@@ -119,7 +119,7 @@ String cp = request.getContextPath();
 								<td><span class="reserveInfo">23333</span></td>
 								<td>
 									<ul>
-										<li><span class="label label-default xs_font"
+										<li><span class="label label-default s_font font_black"
 											style="background-color: rgb(225, 199, 199);">긴급-위탁서비스</span></li>
 										<li>주소 : 서울특별시 강서구 화곡로 344 경동 에파이어 304호</li>
 										<li>시작일자: 2022-12-12 10:00</li>
@@ -128,7 +128,7 @@ String cp = request.getContextPath();
 								</td>
 								<td><div class="reservInfoTd">
 										<img src="/images/vsitter/profile.png" style="width: 60px;"><br>
-										<span class="s_font">루카스</span>
+										<span class="mb_font">루카스</span>
 									</div>
 								</td>
 								<td><span class="reserveInfo">35000원</span></td>
@@ -138,7 +138,7 @@ String cp = request.getContextPath();
 								<td>
 
 									<ul>
-										<li><span class="label label-default xs_font"
+										<li><span class="label label-default s_font font_black"
 											style="background-color: rgb(225, 199, 199);">긴급-방문서비스</span></li>
 										<li>주소 : 서울특별시 강서구 화곡로 344 경동 에파이어 304호</li>
 										<li>시작일자: 2022-12-12 10:00</li>
@@ -147,7 +147,7 @@ String cp = request.getContextPath();
 								</td>
 								<td><div class="reservInfoTd">
 										<img src="/images/vsitter/profile.png" style="width: 60px;"><br>
-										<span class="s_font">루카스</span>
+										<span class="mb_font">루카스</span>
 									</div></td>
 								<td><span class="reserveInfo">35000원</span></td>
 							</tr>
@@ -156,7 +156,7 @@ String cp = request.getContextPath();
 								<td>
 
 									<ul>
-										<li><span class="label label-default xs_font"
+										<li><span class="label label-default s_font font_black"
 											style="background-color: rgb(225, 199, 199);">방문서비스</span></li>
 										<li>주소 : 서울특별시 강서구 화곡로 344 경동 에파이어 304호</li>
 										<li>시작일자: 2022-12-12 10:00</li>
@@ -166,10 +166,10 @@ String cp = request.getContextPath();
 								<td>
 									<div class="reservInfoTd">
 										<img src="/images/vsitter/profile.png" style="width: 60px;"><br>
-										<span class="s_font">루카스아앙이라라</span>
+										<span class="mb_font">루카스아앙이라라</span>
 									</div>
 								</td>
-								<td><span class="reserveInfo">35000원</span></td>
+								<td><span class="reserveInfo">353,000원</span></td>
 							</tr>
 						</table>
 
