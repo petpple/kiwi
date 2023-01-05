@@ -16,7 +16,7 @@ String cp = request.getContextPath();
 	src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript"
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="/css/vsitter/petMain.css">
+<link rel="stylesheet" href="/css/sitter/sitterDiary.css">
 
 </head>
 <body>

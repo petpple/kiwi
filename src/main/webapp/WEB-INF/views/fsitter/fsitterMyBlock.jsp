@@ -24,7 +24,7 @@
 <div class="container" >	
 	<div class="row">
         <div class="col-md-2" id="info">
-        	<c:import url="fsitterSide.jsp"></c:import>
+        	<c:import url="http://localhost:8091/sitterMySide"></c:import>
 		</div>
         
 		<div class="col-md-7">
