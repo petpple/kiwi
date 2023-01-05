@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>펫시터지원한 후 불합격</title>
+<title>위탁 펫시터지원 후 페이지</title>
 
 
 <style type="text/css">
@@ -17,7 +17,6 @@
 	#orange {color: #FE5C17; font-weight: bold;}
 	.panel-heading {text-align: center;}
 	.btn {background-color: #FE5C17; font-weight: bold; color: white;}
-
 
 </style>
 
@@ -34,22 +33,22 @@
 
 <div class="container">
 	<div class="text-center">
-	기다려주셔서 감사합니다.<br>
-	제출하신 지원서를 키위가 검토한 결과<br>
-	제출한 지원서상 보완해야 할 사항이 있으므로<br>
-	방문 펫시터로 불합격 하셨습니다. <br>
-	
+	위탁 펫시터 등록을 완료 했습니다 !<br>
+	모든 활동은 휴식과 서비스 재개가 자유롭습니다.<br> 
+ 	
+ 	프로필을 활성화 하거나 비활성화 하여<br> 
+ 	자유롭게 일과 휴식을 조절해보세요.<br>
+ 	
 	
 	<br><br>
 	<span id="orange">
-	다시 지원을 원하시면 <br>
-	1개월 후 다시 지원 부탁드립니다.<br>
+	
+ 	위탁 펫시팅을 의뢰 받길 원하신다면 <br>
+ 	홈에서 내 일정을 등록 또는 수정 해주세요. 
 	<br></span>
-	
-	
-	
-	<br><br><br>
-	
+ 	</div>
+	<br><br>
+		
 		<div class="panel panel-default">
 	    	<div class="panel-heading">펫시터 등록 프로세스 및 관리</div>
 		    <div class="panel-body row">
@@ -61,16 +60,16 @@
 		      <div class="col-sm-3 text-center"><img src="/images/member/u.svg" class="svgImg1"><br>편리한 일정관리</div>
 		      <div class="col-sm-2 text-center"><img src="/images/member/i.svg" class="svgImg1"><br>매력적인 프로필 정보로 인기있는 펫시터 되기</div>
 		    
- 		    </div><br><br>
+ 		    </div>
 		 
 	    
   		</div>
   		<br><br>
   		<div class="text-center">
+<!-- 			<a href="" class="btn" role="button">로그아웃</a> -->
 			<a href="" class="btn" role="button">홈으로</a>
 		</div>
 		<br><br>
-		</div>
 </div><!-- .container -->
 </body>
 </html>

@@ -17,6 +17,7 @@
 	#orange {color: #FE5C17; font-weight: bold;}
 	.panel-heading {text-align: center;}
 	.btn {background-color: #FE5C17; font-weight: bold; color: white;}
+	.svgImg1 {border-radius: 50px;}
 
 </style>
 
@@ -24,6 +25,9 @@
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/member/memberMain.css">
 
 </head>
 <body>

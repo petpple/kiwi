@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>펫시터지원한 후 불합격</title>
+<title>위탁 펫시터지원하기 페이지</title>
 
 
 <style type="text/css">
@@ -16,8 +16,8 @@
 	.container{font-size: 20px;}
 	#orange {color: #FE5C17; font-weight: bold;}
 	.panel-heading {text-align: center;}
-	.btn {background-color: #FE5C17; font-weight: bold; color: white;}
-
+	.d-flex .justify-content-center {text-align: center;}
+	.btn {background-color: #FE5C17; font-weight: bold; color: white; text-align: center;}
 
 </style>
 
@@ -34,21 +34,16 @@
 
 <div class="container">
 	<div class="text-center">
-	기다려주셔서 감사합니다.<br>
-	제출하신 지원서를 키위가 검토한 결과<br>
-	제출한 지원서상 보완해야 할 사항이 있으므로<br>
-	방문 펫시터로 불합격 하셨습니다. <br>
-	
-	
-	<br><br>
+	위탁 펫시터는 별도의 승인 과정없이 등록 할 수 있습니다.<br>
+	등록 즉시 위탁 펫시터로도 서비스를 제공 할 수 있습니다.<br><br>
+
 	<span id="orange">
-	다시 지원을 원하시면 <br>
-	1개월 후 다시 지원 부탁드립니다.<br>
-	<br></span>
+	방문 펫시터로 합격 후 바로 위탁 펫시터로도 등록 가능하며<br> 
+	모든 서비스를 제공 할 수 있는 펫시터로<br>
+	활동 할 수 있습니다!<br></span>
+ 	</div>
 	
-	
-	
-	<br><br><br>
+	<br><br><br><br>
 	
 		<div class="panel panel-default">
 	    	<div class="panel-heading">펫시터 등록 프로세스 및 관리</div>
@@ -61,15 +56,13 @@
 		      <div class="col-sm-3 text-center"><img src="/images/member/u.svg" class="svgImg1"><br>편리한 일정관리</div>
 		      <div class="col-sm-2 text-center"><img src="/images/member/i.svg" class="svgImg1"><br>매력적인 프로필 정보로 인기있는 펫시터 되기</div>
 		    
- 		    </div><br><br>
+		    
+		    </div>
 		 
 	    
   		</div>
-  		<br><br>
   		<div class="text-center">
-			<a href="" class="btn" role="button">홈으로</a>
-		</div>
-		<br><br>
+  			<a href="" class="btn" role="button">위탁 펫시터 지원하기</a>
 		</div>
 </div><!-- .container -->
 </body>
