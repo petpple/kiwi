@@ -33,44 +33,45 @@
 <body>
 
 <div class="container">
-	<div class="text-center">
-	기다려주셔서 감사합니다.<br>
-	제출하신 지원서를 키위가 검토한 결과<br>
-	제출한 지원서상 보완해야 할 사항이 있으므로<br>
-	방문 펫시터로 불합격 하셨습니다. <br>
-	
-	
-	<br><br>
-	<span id="orange">
-	다시 지원을 원하시면 <br>
-	1개월 후 다시 지원 부탁드립니다.<br>
-	<br></span>
-	
-	
-	
-	<br><br><br>
-	
-		<div class="panel panel-default">
-	    	<div class="panel-heading">펫시터 등록 프로세스 및 관리</div>
-		    <div class="panel-body row">
-		  
-		    
-		      <div class="col-sm-2 text-center"><img src="/images/member/hhh.svg" class="svgImg1"><br>동물을 사랑하는<br> 사람 누구나</div> 
-		      <div class="col-sm-3 text-center"><img src="/images/member/t.svg" class="svgImg1"><br>성실한 서류 작성</div>
-		      <div class="col-sm-2 text-center"><img src="/images/member/y.svg" class="svgImg1"><br>체계적인 등급</div>
-		      <div class="col-sm-3 text-center"><img src="/images/member/u.svg" class="svgImg1"><br>편리한 일정관리</div>
-		      <div class="col-sm-2 text-center"><img src="/images/member/i.svg" class="svgImg1"><br>매력적인 프로필 정보로 인기있는 펫시터 되기</div>
-		    
- 		    </div><br><br>
-		 
-	    
-  		</div>
-  		<br><br>
-  		<div class="text-center">
-			<a href="" class="btn" role="button">홈으로</a>
-		</div>
+	<c:import url="memberHeader.jsp"></c:import>
+		<div class="text-center">
+		기다려주셔서 감사합니다.<br>
+		제출하신 지원서를 키위가 검토한 결과<br>
+		제출한 지원서상 보완해야 할 사항이 있으므로<br>
+		방문 펫시터로 불합격 하셨습니다. <br>
+		
+		
 		<br><br>
-		</div>
-</div><!-- .container -->
+		<span id="orange">
+		다시 지원을 원하시면 <br>
+		1개월 후 다시 지원 부탁드립니다.<br>
+		<br></span>
+		
+		
+		
+		<br><br><br>
+		
+			<div class="panel panel-default">
+		    	<div class="panel-heading">펫시터 등록 프로세스 및 관리</div>
+			    <div class="panel-body row">
+			  
+			    
+			      <div class="col-sm-2 text-center"><img src="/images/member/hhh.svg" class="svgImg1"><br>동물을 사랑하는<br> 사람 누구나</div> 
+			      <div class="col-sm-3 text-center"><img src="/images/member/t.svg" class="svgImg1"><br>성실한 서류 작성</div>
+			      <div class="col-sm-2 text-center"><img src="/images/member/y.svg" class="svgImg1"><br>체계적인 등급</div>
+			      <div class="col-sm-3 text-center"><img src="/images/member/u.svg" class="svgImg1"><br>편리한 일정관리</div>
+			      <div class="col-sm-2 text-center"><img src="/images/member/i.svg" class="svgImg1"><br>매력적인 프로필 정보로 인기있는 펫시터 되기</div>
+			    
+	 		    </div><br><br>
+			 
+		    
+	  		</div>
+	  		<br><br>
+	  		<div class="text-center">
+				<a href="" class="btn" role="button">홈으로</a>
+			</div>
+			<br><br>
+			</div>
+	</div><!-- .container -->
 </body>
 </html>
