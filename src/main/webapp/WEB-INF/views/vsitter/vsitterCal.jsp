@@ -276,7 +276,7 @@
 <body>
 	<div>
 		<img src="/images/vsitter/calendar.svg" class="svgImg1"> <span
-			class="b_font">나의 스케쥴</span>
+			class="h_font">나의 스케쥴</span>
 	</div>
 	<div class="box_cal">
 		<div class="sec_cal">
@@ -301,13 +301,13 @@
 		<div class="cal_detail">
 			<div class="box_cal_detail">
 				<div class="cal_detail_div" style="margin-top: 10px;">
-					<span class="label label-default xs_font"
+					<span class="label label-default s_font font_black"
 						style="background-color: rgb(225, 199, 199);">긴급-방문</span> <br>
-					<span class="cal_md_font">13:00 ~ 15:00</span>
+					<span class="m_font">13:00 ~ 15:00</span>
 				</div>
 				<div class="cal_detail_div">
 					<img src="/images/vsitter/profile.png" style="width: 60px;"><br>
-					<span class="s_font">루카스</span><br>
+					<span class="mb_font">루카스</span><br>
 				</div>
 			</div>
 		</div>
