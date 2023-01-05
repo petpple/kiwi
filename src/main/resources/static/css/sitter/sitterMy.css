@@ -355,3 +355,30 @@ bank_change
 {
 	float: right;
 }
+.h_font {
+   font-size:22px;
+   font-weight: 600;
+   
+}
+.h2_font {
+   font-size:20px;
+   font-weight: 600;
+}
+.l_font{
+   font-size:17px;
+}
+.mb_font{
+   font-size:15px;
+   font-weight: 600;
+}
+.m_font{
+   font-size:15px;
+   
+}
+.s_font {   
+   font-size:13px;
+}
+
+.font_black{
+   color:black;
+}
