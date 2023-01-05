@@ -1,13 +1,13 @@
-.container {
-	margin-bottom: 10px;
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
-
-* {
-	/* font-family: Pretendard-Regular; */
-	/* font-family: 'Noto Sans KR'; */ 
-	font-size: medium;
+*
+{
+	font-family: Pretendard-Regular;
 }
-
 .img {
 	position: relative;
 	background-image: url("/images/user/kiwi1.png");
@@ -64,9 +64,7 @@
 .btn-group>.btn {
 	text-align: left;
 }
-.mid-title {
-	margin-bottom: 70px;
-}
+
 .mid-title, .mid-title > #dir_text {
 	text-align: center;
 	font-weight: bold;
@@ -124,12 +122,7 @@
 }
 
 .fa-gift {
-	font-size: 36px;
-}
-
-#min_dirTitle {
-	font-size: small;
-	color: #434343;
+	font-size: 20px;
 }
 #sitting_img {
  width: 100%; 
