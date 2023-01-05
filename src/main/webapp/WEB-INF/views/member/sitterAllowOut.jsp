@@ -26,6 +26,9 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
+<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/css/member/memberMain.css">
+
 </head>
 <body>
 
@@ -42,7 +45,8 @@
 	다시 지원을 원하시면 <br>
 	1개월 후 다시 지원 부탁드립니다.<br>
 	<br></span>
- 	</div>
+	
+	
 	
 	<br><br><br>
 	
@@ -66,6 +70,7 @@
 			<a href="" class="btn" role="button">홈으로</a>
 		</div>
 		<br><br>
+		</div>
 </div><!-- .container -->
 </body>
 </html>
