@@ -24,7 +24,7 @@
                     </a>
                 </div> <!-- .nav__brand -->
                 <div class="nav__list">
-                    <a href="/admin/dashboard" class="nav__link active">
+                    <a href="/admin/dashboard" class="nav__link">
                         <ion-icon name="home-outline" class="nav__icon"></ion-icon>
                         <span class="nav_name">대시보드</span>
                     </a>
@@ -39,7 +39,7 @@
                         	<li><a href="/admin/list/sitterApplyList" class="collapse__sublink">펫시터 신청 목록</a></li>
                         </ul>
                     </div>
-                    <a href="/admin/stat" class="nav__link">
+                    <a href="/admin/stat" class="nav__link active">
                         <ion-icon name="pie-chart-outline" class="nav__icon"></ion-icon>
                         <span class="nav_name">통계</span>
                     </a>

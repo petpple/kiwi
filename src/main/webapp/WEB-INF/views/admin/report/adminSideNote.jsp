@@ -24,7 +24,7 @@
                     </a>
                 </div> <!-- .nav__brand -->
                 <div class="nav__list">
-                    <a href="/admin/dashboard" class="nav__link active">
+                    <a href="/admin/dashboard" class="nav__link">
                         <ion-icon name="home-outline" class="nav__icon"></ion-icon>
                         <span class="nav_name">대시보드</span>
                     </a>
@@ -63,7 +63,7 @@
                         	<li><a href="/admin/payment/refund" class="collapse__sublink">환불 내역</a></li>
                         </ul>
                     </div>
-                    <a href="/admin/note" class="nav__link">
+                    <a href="/admin/note" class="nav__link active">
                     	<ion-icon name="alert-circle-outline" class="nav__icon"></ion-icon>
                         <span class="nav_name">쪽지 신고</span>
                     </a>

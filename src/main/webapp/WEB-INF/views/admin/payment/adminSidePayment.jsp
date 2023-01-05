@@ -24,7 +24,7 @@
                     </a>
                 </div> <!-- .nav__brand -->
                 <div class="nav__list">
-                    <a href="/admin/dashboard" class="nav__link active">
+                    <a href="/admin/dashboard" class="nav__link">
                         <ion-icon name="home-outline" class="nav__icon"></ion-icon>
                         <span class="nav_name">대시보드</span>
                     </a>
@@ -54,7 +54,7 @@
                         	<li><a href="/admin/siteManage/notice" class="collapse__sublink">공지사항 관리</a></li>
                         </ul>
                     </div>
-                    <div class="nav__link collapse">
+                    <div class="nav__link collapse active">
                     	<ion-icon name="card-outline" class="nav__icon"></ion-icon>
                         <span class="nav_name">결제 관리</span>
                         <ion-icon name="chevron-down-outline" class="collapse__link"></ion-icon>

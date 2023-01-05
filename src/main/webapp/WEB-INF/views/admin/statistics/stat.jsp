@@ -4,19 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>adminMain.jsp</title>
+<title>memberList.jsp</title>
 </head>
 <body>
 <div>
-	<div class="row">
+	<div>
 		<div class="col-md-2" id="info">
-        	<c:import url="adminSide.jsp"></c:import>
+        	<c:import url="adminSideStat.jsp"></c:import>
 		</div>
-		<div class="col-md-7">
-			
-		</div>
-		<div class="col-md-3">
-	        <div class="" style="border: 1px solid #FE5C17; height:300px; width: 300px" ></div>
+		<div class="col-md-10">
+			통계 페이지 입니다.
 		</div>
 	</div>
 </div>
