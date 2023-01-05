@@ -63,11 +63,11 @@
         
     }
     
-    a:hover{
-        background-color: blanchedalmond;
-        color: blanchedalmond;
+/*     a:hover{ */
+/*         background-color: blanchedalmond; */
+/* /*         color: blanchedalmond; */ */
 
-    }
+/*     } */
     td,th {
         font-size: 8pt;
         color: black;
@@ -109,3 +109,5 @@
 	.font_black{
 	   color:black;
 	}
+	
+	a { text-decoration:none;}
