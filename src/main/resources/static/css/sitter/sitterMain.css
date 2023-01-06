@@ -14,7 +14,8 @@
 .container {
 	display: grid;
 	padding-top: 30px;
-	width:1300px;
+	width: 1300px !important;
+	
 }
 
 .box_pi {
@@ -37,8 +38,7 @@
 	border: 1px solid rgba(227, 226, 226, 0.913);
 	box-shadow: 1px 1px 1px rgb(222, 214, 214);
 	border-radius: 4px;
-	padding: 13px;
-	width: 100%;
+	padding: 5px;
 	margin-bottom: 20px;
 }
 
@@ -96,12 +96,13 @@
 	text-align: center;
 }
 
+
 .reserveInfo {
 	line-height: 60px;
-}
+	text-align: center;
+}  
 
 .reservInfoTd {
 	padding: auto;
 	text-align: center;
 }
-
