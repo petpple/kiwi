@@ -60,10 +60,10 @@ public class UserController {
 	
 	
 	//----------------------- 푸터 시작 ------------------------
-	@RequestMapping("footer")
+	@RequestMapping("user/footer")
 	public String footer()
 	{
-		return "footer";
+		return "user/footer";
 	}
 	//----------------------- 푸터 종료 ------------------------
 	
