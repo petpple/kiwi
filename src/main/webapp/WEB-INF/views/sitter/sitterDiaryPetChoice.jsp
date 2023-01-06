@@ -17,13 +17,23 @@ String cp = request.getContextPath();
 <script type="text/javascript"
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="/css/sitter/sitterDiary.css">
+<style type="text/css">
 
+	.btn_diary{
+	background-color: #ff8040; color:white;
+	height: 30px;
+	text-align: center;
+	box-shadow: 1px 1px 1px rgb(203, 203, 203);
+	
+	}
+
+</style>
 </head>
 <body>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2" id="info">
-				<c:import url="vsitterSide.jsp"></c:import>
+				<c:import url="http://localhost:8091/vsitter/vsitterSide"></c:import>
 			</div>
 			<div class="col-md-7">
 				<div class="IMG1">
@@ -32,8 +42,8 @@ String cp = request.getContextPath();
 				</div>
 				<ul class="nav nav-tabs">
 					<li role="presentation" class="active"><a
-						href="vsitterDiaryPetChoice" style="color: #FE5C17;">작성 가능한 일지</a></li>
-					<li role="presentation"><a href="vsitterDiaryWritten"
+						href="sitterDiaryPetChoice" style="color: #FE5C17;">작성 가능한 일지</a></li>
+					<li role="presentation"><a href="sitterDiaryWritten"
 						class="diary_inactive">작성 한 일지</a></li>
 				</ul>
 				<div class="box_mi">
@@ -54,29 +64,29 @@ String cp = request.getContextPath();
 						</div>
 					</div>
 					<br>
-					<span class="l_font" style="font-weight:600;"> 일지 작성할 펫 선택 </span>
+					<span class="l_font" style="font-weight:600;">일지 작성할 펫 선택 </span>
 					<div class="box_diary_flex">
 						<div class="div_horizon">
 							<img src="/images/vsitter/profile.png" style="width: 60px;"><br>
-							<span class="mb_font">루카스</span><br>
-							<a href='vsitterDiaryForm' class="btn btn-primary">작성</a>
+							<span class="mb_font">멍멍이</span><br>
+							<a href='sitterDiaryForm' class="btn btn_diary" style="">작성</a>
 						</div>
 						<div class="div_horizon">
 							<img src="/images/vsitter/profile.png" style="width: 60px;"><br>
-							<span class="mb_font">루카스</span><br>
-							<a href='vsitterDiaryForm' class="btn btn-primary">작성</a>
+							<span class="mb_font">야용이</span><br>
+							<a href='sitterDiaryForm' class="btn btn_diary s_font">작성</a>
 						</div>
 						<div class="div_horizon">
 							<img src="/images/vsitter/profile.png" style="width: 60px;"><br>
-							<span class="mb_font">루카스</span><br>
-							<a href='vsitterDiaryForm' class="btn btn-primary">작성</a>
+							<span class="mb_font">귄터</span><br>
+							<a href='sitterDiaryForm' class="btn btn_diary">작성</a>
 						</div>					
 					</div>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div id="test">
-					<c:import url="vsitterCal.jsp"></c:import>
+					<c:import url="http://localhost:8091/sitter/sitterCal"></c:import>
 				</div>
 			</div>
 		</div>
