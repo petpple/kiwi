@@ -55,7 +55,7 @@ String cp = request.getContextPath();
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2" id="info">
-				<c:import url="http://localhost:8091/vsitterSide"></c:import>
+				<c:import url="http://localhost:8091/vsitter/vsitterSide"></c:import>
 			</div>
 			<div class="col-md-7">
 				<div class="IMG1">
@@ -63,7 +63,7 @@ String cp = request.getContextPath();
 						class="font h_font">진행 중인 펫시팅</span>
 				</div>
 				<div class="box_mi">
-					<span class="label label-default s_font font_black"
+					<span class="label label-default  font_black"
 						style="background-color: rgb(225, 199, 199);">긴급-방문서비스</span>
 					<img src="/images/vsitter/timer-icon.svg" class="svgImg1">
 					<span id="remainTime" class="s_font"></span>
@@ -89,7 +89,7 @@ String cp = request.getContextPath();
 										<span class="mb_font">루카스</span>
 									</div>
 								</td>
-								<td><span class="reserveInfo">350030원</span></td>
+								<td><span class="reserveInfo">350,030원</span></td>
 							</tr>
 						</table>
 
@@ -108,7 +108,7 @@ String cp = request.getContextPath();
 				<div class="box_mi">
 
 					<div class="serv_on">
-						<table class="table tab m_font">
+						<table class="table tab s_font">
 							<tr>
 								<th>신청번호</th>
 								<th style="text-align: center">내용</th>
@@ -116,16 +116,21 @@ String cp = request.getContextPath();
 								<th>결제금액</th>
 							</tr>
 							<tr>
+				
 								<td><span class="reserveInfo">23333</span></td>
+								
 								<td>
 									<ul>
-										<li><span class="label label-default s_font font_black"
-											style="background-color: rgb(225, 199, 199);">긴급-위탁서비스</span></li>
-										<li>주소 : 서울특별시 강서구 화곡로 344 경동 에파이어 304호</li>
+										<li><a href=""><span class="label label-default s_font font_black"
+											style="background-color: rgb(225, 199, 199);">긴급-위탁서비스</span></a> </li>
+										<li>주소 : 서울특별시 강서구 화곡로 344</li>
+										<li>상세주소 : 경동 에파이어 304호</li>
 										<li>시작일자: 2022-12-12 10:00</li>
 										<li>종료일자: 2022-12-12 13:00</li>
+										
 									</ul>
 								</td>
+								
 								<td><div class="reservInfoTd">
 										<img src="/images/vsitter/profile.png" style="width: 60px;"><br>
 										<span class="mb_font">루카스</span>
@@ -158,7 +163,7 @@ String cp = request.getContextPath();
 									<ul>
 										<li><span class="label label-default s_font font_black"
 											style="background-color: rgb(225, 199, 199);">방문서비스</span></li>
-										<li>주소 : 서울특별시 강서구 화곡로 344 경동 에파이어 304호</li>
+										<li>주소 : 서울특별시 강서구 화곡로 344 경동 에파이어 304호123123121231231232131223</li>
 										<li>시작일자: 2022-12-12 10:00</li>
 										<li>종료일자: 2022-12-12 13:00</li>
 									</ul>
@@ -166,7 +171,7 @@ String cp = request.getContextPath();
 								<td>
 									<div class="reservInfoTd">
 										<img src="/images/vsitter/profile.png" style="width: 60px;"><br>
-										<span class="mb_font">루카스아앙이라라</span>
+										<span class="mb_font">루카스아앙라</span>
 									</div>
 								</td>
 								<td><span class="reserveInfo">353,000원</span></td>
@@ -180,7 +185,7 @@ String cp = request.getContextPath();
 			</div>
 			<div class="col-md-3">
 				<div id="test">
-					<c:import url="sitterCal.jsp"></c:import>
+					<c:import url="http://localhost:8091/sitter/sitterCal"></c:import>
 				</div>
 			</div>
 		</div>
