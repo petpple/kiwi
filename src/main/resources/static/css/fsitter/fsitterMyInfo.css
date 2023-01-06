@@ -1,3 +1,10 @@
+.container {
+	display: grid;
+	padding-top: 30px;
+	padding: auto;
+	padding:auto;
+	width:1300px;
+}
 .h_font {
    font-size:22px;
    font-weight: 600;
@@ -44,10 +51,29 @@
      padding: 30px;
      width:100%;
      margin-left: 30px;
-     margin-top: 3px;
+     
 }
 
 infoChange
 {
 	font-size:15px;
+}
+
+[type="radio"]:checked {
+  border: 0.3em solid tomato;
+}
+
+[type="radio"]:focus-visible {
+  outline-offset: max(2px, 0.1em);
+  outline: max(2px, 0.1em) dotted tomato;
+}
+
+[type="radio"]:hover {
+  box-shadow: 0 0 0 max(4px, 0.2em) lightgray;
+  cursor: pointer;
+}
+
+[type="radio"]:disabled + span {
+  opacity: 0.7;
+  cursor: not-allowed;
 }

@@ -25,10 +25,10 @@
 
 		<c:import url="fsitterHeader.jsp"></c:import>
 		
-	<div class="container" >
+<div class="container" >
 	<div class="row">
         <div class="col-md-2" id="info">
-        	<c:import url="http://localhost:8091/sitterMySide"></c:import>
+        	<c:import url="http://localhost:8091/sitter/sitterMySide"></c:import>
 		</div>
 		
 		

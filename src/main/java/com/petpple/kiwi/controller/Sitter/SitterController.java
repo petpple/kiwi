@@ -36,19 +36,19 @@ public class SitterController {
 		return "sitter/sitterDiaryPetChoice";
 	}
 	
-	@RequestMapping("/sitterMyBank")
+	@RequestMapping("/sitter/sitterMyBank")
 	public String sitterMyBank()
 	{
 		return "sitter/sitterMyBank";
 	}
 	
-	@RequestMapping("/sitterMySide")
+	@RequestMapping("/sitter/sitterMySide")
 	public String sitterMySide()
 	{
 		return "sitter/sitterMySide";
 	}
 	
-	@RequestMapping("/sitterMyDrawl")
+	@RequestMapping("/sitter/sitterMyDrawl")
 	public String sitterMyDrawl()
 	{
 		return "sitter/sitterMyDrawl";

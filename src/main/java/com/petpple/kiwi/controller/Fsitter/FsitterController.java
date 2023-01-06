@@ -6,27 +6,27 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class FsitterController {
 	
-	@RequestMapping("/fsitterMyProfile")
+	@RequestMapping("/fsitter/fsitterMyProfile")
 	public String fsitterMyProfile()
 	{
 		return "fsitter/fsitterMyProfile";
 	}
 	
 	
-	@RequestMapping("/fsitterHeader")
+	@RequestMapping("/fsitter/fsitterHeader")
 	public String fsitterHeader()
 	{
 		return "fsitter/fsitterHeader";
 	}
 	
-	@RequestMapping("/fsitterMyBlock")
+	@RequestMapping("/fsitter/fsitterMyBlock")
 	public String fsitterMyBlock()
 	{
 		return "fsitter/fsitterMyBlock";
 	}
 	
 	
-	@RequestMapping("/fsitterMyInfo")
+	@RequestMapping("/fsitter/fsitterMyInfo")
 	public String fsitterMyInfo()
 	{
 		return "fsitter/fsitterMyInfo";

@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="/css/fsitter/fsitterMy.css">
+<link rel="stylesheet" href="/css/fsitter/fsitterMyBlock.css">
 <link rel="stylesheet" href="/css/main.css">
 
 </head>
@@ -24,18 +24,18 @@
 <div class="container" >	
 	<div class="row">
         <div class="col-md-2" id="info">
-        	<c:import url="http://localhost:8091/sitterMySide"></c:import>
+        	<c:import url="http://localhost:8091/sitter/sitterMySide"></c:import>
 		</div>
         
 		<div class="col-md-7">
 			<div class="IMG1" >
 				<img src="/images/fsitter/2.svg" class="svgImg2">
-				<span class="font b_font">차단목록</span>
+				<span class="font h_font">차단목록</span>
         	</div>
         	
-	        <div class="box_miBl">
+	        <div class="box_miBlock">
 	            <div class= "serv_on">
-	                <table class="table table-hover" >
+	                <table class="table table-hover m_font" >
 	                    <tr>
 	                        <th>번호</th>
 	                        <th>의뢰자 닉네임</th>

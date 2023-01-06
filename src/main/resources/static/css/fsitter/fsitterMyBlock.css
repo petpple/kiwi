@@ -37,30 +37,24 @@
 {
   	 margin-left: 30px;
 }
-.svgImg1
+.svgImg2
 {
 	padding-bottom: 5px
 }
-.box_mi
+.box_miBlock
 {
      background-color: rgba(251, 238, 231, 0.636);
      border: 1px solid rgba(227, 226, 226, 0.913); 
   	
      box-shadow: 1px 1px 1px rgb(222, 214, 214); 
      border-radius: 4px;
-     padding: 60px;
+     padding: 30px;
      width:100%;
      margin-left: 30px;
      
 }
 
-.box_myside
-{
-     border: 1px solid rgba(210, 210, 210, 0.913); 
-     height: 340px;
-     box-shadow: 1px 1px 1px rgb(167, 165, 165); 
-     border-radius: 4px;
-     padding: 13px;
-     text-align: center;
-	 font-size: 22px;
+
 }
+td, th {
+	font-size: 13px;

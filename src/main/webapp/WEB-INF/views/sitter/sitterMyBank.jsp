@@ -25,17 +25,18 @@
 </head>
 <body>
 	
-<c:import url="http://localhost:8091/fsitterHeader"></c:import>
+<c:import url="http://localhost:8091/fsitter/fsitterHeader"></c:import>
+
 <div class="container" >
 	<div class="row">
         <div class="col-md-2" id="info">
-        	<c:import url="sitterMySide.jsp"></c:import>
+        	<c:import url="http://localhost:8091/sitter/sitterMySide"></c:import>
 		</div>
 		
 		<div class="col-md-7">
 			<div class="IMG1" >
 				<img src="/images/fsitter/2.svg" class="svgImg2">
-				<span class="font b_font">계좌 변경</span>
+				<span class="font h_font">계좌 변경</span>
         	</div>
         	
 	        <div class="box_mibank">
