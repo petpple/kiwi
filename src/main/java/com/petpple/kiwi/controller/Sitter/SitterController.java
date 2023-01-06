@@ -6,52 +6,44 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class SitterController {
 
-	@RequestMapping("/sitterMain")
-	public String sitterMain()
-	{
+	@RequestMapping("sitter/sitterMain")
+	public String sitterMain() {
 		return "sitter/sitterMain";
 	}
-	
-	@RequestMapping("/sitterCal")
-	public String sitterSideCal()
-	{
+
+	@RequestMapping("sitter/sitterCal")
+	public String sitterSideCal() {
 		return "sitter/sitterCal";
 	}
-	
-	@RequestMapping("/sitterDiaryForm")
-	public String sitterDiaryForm()
-	{
+
+	@RequestMapping("sitter/sitterDiaryForm")
+	public String sitterDiaryForm() {
 		return "sitter/sitterDiaryForm";
 	}
-	
-	@RequestMapping("/sitterDiaryWritten")
-	public String sitterDiary()
-	{
+
+	@RequestMapping("sitter/sitterDiaryWritten")
+	public String sitterDiary() {
 		return "sitter/sitterDiaryWritten";
 	}
-	
-	@RequestMapping("/sitterDiaryPetChoice")
-	public String sitterDiaryPetChoice()
-	{
+
+	@RequestMapping("sitter/sitterDiaryPetChoice")
+	public String sitterDiaryPetChoice() {
 		return "sitter/sitterDiaryPetChoice";
 	}
-	
-	@RequestMapping("/sitter/sitterMyBank")
-	public String sitterMyBank()
-	{
+
+	@RequestMapping("sitter/sitterMyBank")
+	public String sitterMyBank() {
 		return "sitter/sitterMyBank";
 	}
-	
-	@RequestMapping("/sitter/sitterMySide")
-	public String sitterMySide()
-	{
+
+	@RequestMapping("sitter/sitterMySide")
+	public String sitterMySide() {
 		return "sitter/sitterMySide";
 	}
-	
-	@RequestMapping("/sitter/sitterMyDrawl")
-	public String sitterMyDrawl()
-	{
+
+	@RequestMapping("sitter/sitterMyDrawl")
+	public String sitterMyDrawl() {
 		return "sitter/sitterMyDrawl";
 	}
-	
+
 }
