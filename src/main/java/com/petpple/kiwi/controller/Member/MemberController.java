@@ -8,38 +8,39 @@ public class MemberController
 {
 	
 	//-------------- 펫시터 지원하기 ------------------
-	@RequestMapping("/member/memberApply")
+	@RequestMapping("/member/sitterApply/memberApply")
 	public String memberApply()
 	{
-		return "member/memberApply";
+		return "member/sitterApply/memberApply";
 	}
-	
-	@RequestMapping("/member/memberApplyForm")
-	public String memberApplyForm()
-	{
-		return "member/memberApplyForm";
-	}
-	
-	//-------------- 펫시터 지원 후 합격 ------------------
-	@RequestMapping("/member/sitterAllowIn")
-	public String sitterAllowIn()
-	{
-		return "member/sitterAllowIn";
-	}
-	
-	//-------------- 펫시터 지원 후 불합격 ------------------
-	@RequestMapping("/member/sitterAllowOut")
-	public String sitterAllowOut()
-	{
-		return "member/sitterAllowOut";
-	}
-	
-	//-------------- 펫시터 지원서 제출 완료 안내 페이지 ------------------
 	@RequestMapping("/member/sitterAllowSubmit")
 	public String sitterAllowSubmit()
 	{
 		return "member/sitterAllowSubmit";
 	}
+	//-------------- 펫시터 지원서 제출 완료 안내 페이지 끝 ------------------
+	
+	//-------------- 펫시터 지원서 폼 -----------------------------
+	@RequestMapping("/member/form/memberApplyForm")
+	public String memberApplyForm()
+	{
+		return "member/form/memberApplyForm";
+	}
+	
+	//-------------- 펫시터 지원 후 합격 또는 불합격 페이지 ------------------
+	@RequestMapping("/member/sitterInOrOut/sitterAllowIn")
+	public String sitterAllowIn()
+	{
+		return "member/sitterInOrOut/sitterAllowIn";
+	}
+	
+	@RequestMapping("/member/sitterInOrOut/sitterAllowOut")
+	public String sitterAllowOut()
+	{
+		return "member/sitterInOrOut/sitterAllowOut";
+	}
+	
+	//-------------- 펫시터 지원 후 합격 또는 불합격 페이지 끝 ------------------
 	
 	//-------------- 위탁 펫시터 등록 완료 안내 페이지 ------------------
 	@RequestMapping("/member/vsitterSign")
@@ -49,10 +50,10 @@ public class MemberController
 	}
 	
 	//-------------- 위탁 펫시터 등록 폼 페이지 ------------------
-	@RequestMapping("/member/vsitterApplyForm")
+	@RequestMapping("/member/form/vsitterApplyForm")
 	public String vsitterApplyForm()
 	{
-		return "member/vsitterApplyForm";
+		return "member/form/vsitterApplyForm";
 	}
 	
 	//-------------- 위탁 펫시터 지원 후 페이지 ------------------
@@ -63,20 +64,21 @@ public class MemberController
 	}
 	
 	//-------------- 펫시터 후기 페이지 ------------------
-	@RequestMapping("/member/memberReview")
+	@RequestMapping("/member/review/memberReview")
 	public String memberReview()
 	{
-		return "member/memberReview";
+		return "member/review/memberReview";
 	}
 
-	//-------------- 펫시터 후기 페이지 test.ver 인데 이게더 발전 됨 ------------------
-	@RequestMapping("/member/memberReviewT")
+	@RequestMapping("/member/review/memberReviewT")
 	public String memberReviewT()
 	{
-		return "member/memberReviewT";
+		return "member/review/memberReviewT";
 	}
+	
+	//-------------- 펫시터 후기 페이지 끝 ------------------
 
-	//-------------- 의뢰인 키위 헤더 ------------------
+	//-------------- 의뢰인 사이트 헤더 ------------------
 	@RequestMapping("/member/memberHeader")
 	public String memberHeader()
 	{
@@ -84,32 +86,31 @@ public class MemberController
 	}
 	
 	//-------------- 의뢰인 마이페이지 ------------------
-	@RequestMapping("/member/memberMyInfo")
+	@RequestMapping("/member/myPage/memberMyInfo")
 	public String memberMyInfo()
 	{
-		return "member/memberMyInfo";
+		return "member/myPage/memberMyInfo";
 	}
 
 	//-------------- 의뢰인 메인페이지 ------------------
-	@RequestMapping("/member/memberMain")
+	@RequestMapping("/member/mainPage/memberMain")
 	public String memberMain()
 	{
-		return "member/memberMain";
+		return "member/mainPage/memberMain";
 	}
 	
-	//-------------- 의뢰인 왼쪽 사이드 ------------------
-	@RequestMapping("/member/memberSide")
+	@RequestMapping("/member/mainPage/memberSide")
 	public String memberSide()
 	{
-		return "member/memberSide";
+		return "member/mainPage/memberSide";
 	}
-	//-------------- 의뢰인 오른쪽 사이드 달력 ------------------
-	@RequestMapping("/member/memberCal")
+	@RequestMapping("/member/mainPage/memberCal")
 	public String memberCal()
 	{
-		return "member/memberCal";
+		return "member/mainPage/memberCal";
 	}
 
+	//-------------- 의뢰인 메인페이지 끝------------------
 	
 	
 }
