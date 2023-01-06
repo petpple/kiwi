@@ -26,6 +26,19 @@ public class MemberController
 	{
 		return "member/form/memberApplyForm";
 	}
+	//-------------- 위탁 펫시터 등록 폼 페이지 ------------------
+	@RequestMapping("/member/form/vsitterApplyForm")
+	public String vsitterApplyForm()
+	{
+		return "member/form/vsitterApplyForm";
+	}
+	
+	@RequestMapping("/member/form/memberUsvcForm")
+	public String memberUsvcForm()
+	{
+		return "member/form/memberUsvcForm";
+	}
+
 	
 	//-------------- 펫시터 지원 후 합격 또는 불합격 페이지 ------------------
 	@RequestMapping("/member/sitterInOrOut/sitterAllowIn")
@@ -49,12 +62,7 @@ public class MemberController
 		return "member/vsitterSign";
 	}
 	
-	//-------------- 위탁 펫시터 등록 폼 페이지 ------------------
-	@RequestMapping("/member/form/vsitterApplyForm")
-	public String vsitterApplyForm()
-	{
-		return "member/form/vsitterApplyForm";
-	}
+
 	
 	//-------------- 위탁 펫시터 지원 후 페이지 ------------------
 	@RequestMapping("/member/fsitterIn")
