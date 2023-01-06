@@ -18,7 +18,7 @@
 <body>
 <header>
       <div class="loge">
-         <img src="images/fsitter/logo1.png" alt="loge1" width="150px;" hspace="150" vspace="5" >
+         <img src="/images/fsitter/logo.svg" alt="loge2" width="150px;" hspace="150" vspace="5" >
       </div>
       
       <div id="top_menu">
@@ -35,7 +35,7 @@
             <li><a href="#">방문 서비스</a></li>
             <li><a href="#">위탁 서비스</a></li>
             <li><a href="#">FAQ</a></li>
-            <li><a href="http://localhost:8091/fsitterMyInfo">마이페이지</a></li>
+            <li><a href="http://localhost:8091/fsitter/fsitterMyInfo">마이페이지</a></li>
          </ul>
       </nav>
    </header>
