@@ -23,7 +23,7 @@ String cp = request.getContextPath();
 	<div class="container">
 		<div class="row">
 			<div class="col-md-2" id="info">
-				<c:import url="vsitterSide.jsp"></c:import>
+				<c:import url="http://localhost:8091/vsitter/vsitterSide"></c:import>
 			</div>
 			<div class="col-md-7">
 				<div class="IMG1">
@@ -31,18 +31,18 @@ String cp = request.getContextPath();
 						class="font b_font">일지</span>
 				</div>
 				<ul class="nav nav-tabs">
-					<li role="presentation"><a href="vsitterDiaryWritable"
-						class="vsitterDiaryPetChoice">작성 가능한 일지</a></li>
+					<li role="presentation"><a href="sitterDiaryPetChoice"
+						class="sitterDiaryPetChoice">작성 가능한 일지</a></li>
 					<li role="presentation" class="active"><a
-						href="vsitterDiaryWritable"  style="color:#FE5C17;">작성 한 일지</a></li>
+						href="sitterDiaryWritten"  style="color:#FE5C17;">작성 한 일지</a></li>
 				</ul>
 				<div class="box_mi">
-					div
+					
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div id="test">
-					<c:import url="vsitterCal.jsp"></c:import>
+					<c:import url="http://localhost:8091/sitter/sitterCal"></c:import>
 				</div>
 			</div>
 		</div>
