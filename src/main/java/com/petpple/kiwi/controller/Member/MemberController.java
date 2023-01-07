@@ -20,13 +20,12 @@ public class MemberController
 	}
 	//-------------- 펫시터 지원서 제출 완료 안내 페이지 끝 ------------------
 	
-	//-------------- 펫시터 지원서 폼 -----------------------------
+	//-------------- 펫시터 폼 관련 -----------------------------
 	@RequestMapping("/member/form/memberApplyForm")
 	public String memberApplyForm()
 	{
 		return "member/form/memberApplyForm";
 	}
-	//-------------- 위탁 펫시터 등록 폼 페이지 ------------------
 	@RequestMapping("/member/form/vsitterApplyForm")
 	public String vsitterApplyForm()
 	{
@@ -120,5 +119,10 @@ public class MemberController
 
 	//-------------- 의뢰인 메인페이지 끝------------------
 	
-	
+	//-------------- 의뢰인 긴급서비스 등록 디테일------------------
+	@RequestMapping("/member/memberUsvcDetail")
+	public String memberUsvcDetail()
+	{
+		return "member/memberUsvcDetail";
+	}
 }

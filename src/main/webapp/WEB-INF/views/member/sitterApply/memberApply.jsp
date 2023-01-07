@@ -35,7 +35,7 @@
 
 </head>
 <body>
-	<c:import url="memberHeader.jsp"></c:import>
+	<c:import url="/member/memberHeader"></c:import>
 	<div class="container">
 		<div class="text-center">
 		<p class="h_font">

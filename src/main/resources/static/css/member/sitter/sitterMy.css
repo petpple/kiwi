@@ -1,12 +1,12 @@
 header{
 	width: 100%;
 	height: 100px;
-/* 	border-style:solid;  */
-/* 	border-color: orange; */
-/* 	margin:2px; */
+	border-style:solid; 
+	border-color: gray;
+	margin:2px;
 	position: relative;
 }
-#logo{
+#loge{
 	position: absolute;
 	top : 30px;
 	left: 30px;
@@ -21,7 +21,7 @@ header{
 nav{
 	position: absolute;
 	bottom: 10px;
-	left: 17%;
+	left: 25%;
 	font-size: 20px;
 } 
 
@@ -49,7 +49,7 @@ nav li{
 .box_pi
 {
      border: 1px solid rgba(210, 210, 210, 0.913); 
-     height: 120px;
+     height: 350px;
      box-shadow: 1px 1px 1px rgb(167, 165, 165); 
      border-radius: 4px;
      padding: 13px;
@@ -58,7 +58,6 @@ nav li{
 }
 .box_mypi
 {
-	color: orange;
      border: 1px solid rgba(210, 210, 210, 0.913); 
      height: 340px;
      box-shadow: 1px 1px 1px rgb(167, 165, 165); 
@@ -195,11 +194,11 @@ nav li{
      margin-top: 35px;
 }
 
-/* td,th  */
-/* { */
-/*      font-size: 22pt; */
-/*      color: black; */
-/* } */
+td,th 
+{
+     font-size: 22pt;
+     color: black;
+}
 form-inline
 {
   	 text-align: center;
@@ -355,4 +354,31 @@ bank_change
 .MyPro1
 {
 	float: right;
+}
+.h_font {
+   font-size:22px;
+   font-weight: 600;
+   
+}
+.h2_font {
+   font-size:20px;
+   font-weight: 600;
+}
+.l_font{
+   font-size:17px;
+}
+.mb_font{
+   font-size:15px;
+   font-weight: 600;
+}
+.m_font{
+   font-size:15px;
+   
+}
+.s_font {   
+   font-size:13px;
+}
+
+.font_black{
+   color:black;
 }
